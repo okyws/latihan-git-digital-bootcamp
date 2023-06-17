@@ -37,8 +37,4 @@ public class Customer {
   public void setAge(int age) {
     this.age = age;
   }
-
-  public String getFullName() {
-    return getName() + " " + getAddress();
-  }
 }
